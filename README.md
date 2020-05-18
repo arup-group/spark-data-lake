@@ -1,6 +1,6 @@
 # Analytics data lake
 
-This project builds a data pipeline for ETL of song and songplay data for building a data lake. The data pipeline extracts data from Amazon S3, processes it using Spark, and loads the data back into Amazon S3 as a set of parquet files. This will allow Sparkify's analytics team to continue finding insights in what songs their users are listening to.
+This project builds a data pipeline for ETL of song and songplay data for building a data lake. The data pipeline extracts data from Amazon S3, processes it using Spark, and loads the data back into Amazon S3 as a set of parquet files. This will allow an analytics team to continue finding insights in what songs their users are listening to.
 
 ## Database Schema Design
 The data lake is designed to follow a star schema, optimized for queries on song play analysis for analytics. It includes the following tables and attributes:
